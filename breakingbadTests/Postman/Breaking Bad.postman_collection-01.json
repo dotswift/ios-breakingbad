@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "5bea3b0e-4a8a-4df0-932a-4bb50e36449a",
+		"name": "Breaking Bad",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Characters",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "List of all characters"
+			},
+			"response": []
+		},
+		{
+			"name": "Character",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "Get a single character (search by Character ID)"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
