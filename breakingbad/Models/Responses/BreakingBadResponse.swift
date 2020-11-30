@@ -1,6 +1,4 @@
-
 import Foundation
-
 
 struct Character: Codable {
     
@@ -10,13 +8,9 @@ struct Character: Codable {
     let occupation: [String]
     let img: String
     let status: String
-    let appearance: [Int]
+    let appearance: [Int]?
     let nickname: String
     let portrayed: String
     let category: String
-    let better_call_saul_appearance: [String?]
-}
-
-struct Characters: Codable {
-    let response: [Character]
+    let better_call_saul_appearance: [Int]?
 }

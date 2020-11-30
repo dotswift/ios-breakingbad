@@ -19,7 +19,7 @@
 		C430C15625744FB300391168 /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C430C15525744FB300391168 /* UIConstants.swift */; };
 		C430C15B25744FC600391168 /* BreakingBadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C430C15A25744FC600391168 /* BreakingBadService.swift */; };
 		C430C16325744FDD00391168 /* ApiHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C430C16225744FDD00391168 /* ApiHelper.swift */; };
-		C430C16A2574501C00391168 /* BreakingBadCharacterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C430C1692574501C00391168 /* BreakingBadCharacterResponse.swift */; };
+		C430C16A2574501C00391168 /* BreakingBadResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C430C1692574501C00391168 /* BreakingBadResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +58,7 @@
 		C430C15525744FB300391168 /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
 		C430C15A25744FC600391168 /* BreakingBadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingBadService.swift; sourceTree = "<group>"; };
 		C430C16225744FDD00391168 /* ApiHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiHelper.swift; sourceTree = "<group>"; };
-		C430C1692574501C00391168 /* BreakingBadCharacterResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingBadCharacterResponse.swift; sourceTree = "<group>"; };
+		C430C1692574501C00391168 /* BreakingBadResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingBadResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,7 +202,7 @@
 		C430C16725744FE200391168 /* Responses */ = {
 			isa = PBXGroup;
 			children = (
-				C430C1692574501C00391168 /* BreakingBadCharacterResponse.swift */,
+				C430C1692574501C00391168 /* BreakingBadResponse.swift */,
 			);
 			path = Responses;
 			sourceTree = "<group>";
@@ -340,7 +340,7 @@
 				C430C15B25744FC600391168 /* BreakingBadService.swift in Sources */,
 				C430C11225744F2600391168 /* ViewController.swift in Sources */,
 				C430C15125744FAC00391168 /* BreakingBadApiConstants.swift in Sources */,
-				C430C16A2574501C00391168 /* BreakingBadCharacterResponse.swift in Sources */,
+				C430C16A2574501C00391168 /* BreakingBadResponse.swift in Sources */,
 				C430C15625744FB300391168 /* UIConstants.swift in Sources */,
 				C430C10E25744F2600391168 /* AppDelegate.swift in Sources */,
 				C430C11025744F2600391168 /* SceneDelegate.swift in Sources */,
