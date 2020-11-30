@@ -1,6 +1,6 @@
 ## Breaking Bad iOS
 
-#### The folks at breakingbadapi.com have created a fast, dynamic and fun API based on certain events that took place in New Mexico. The iOS implementation of this API exists to channel nostalgia while testing various programming patterns and techniques.
+#### The folks at [breakingbadapi.com](breakingbadapi.com) have created a fast, dynamic and fun API based on certain events that took place in New Mexico. The iOS implementation of this API exists to channel nostalgia while testing various programming patterns and techniques.
 
 ### Features
 - Search by character ID
@@ -10,5 +10,9 @@
 ### Coming soon
 - Search by appearance, occupation, nickname
 - View images of our friends from Albuquerque
+
+### Check out the Breaking Bad API
+- [Documentation](https://www.breakingbadapi.com/documentation)
+- [View example API interactions](https://www.breakingbadapi.com/playground)
 
  
