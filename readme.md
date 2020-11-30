@@ -5,6 +5,7 @@
 ### Features
 - Search by character ID
 - Show list of all characters & corresponding information
+- Search by character name
 
 ### Coming soon
 - Search by appearance, occupation, nickname
