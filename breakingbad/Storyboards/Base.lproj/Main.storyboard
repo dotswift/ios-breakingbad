@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="7HZ-8K-wGm">
-                                <rect key="frame" x="0.0" y="54" width="414" height="753"/>
+                                <rect key="frame" x="0.0" y="54" width="414" height="788"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="pmu-rA-mX8">
@@ -30,23 +30,15 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FO0-HI-gb2">
-                                <rect key="frame" x="180.5" y="827" width="53" height="30"/>
-                                <state key="normal" title="Refresh"/>
-                                <connections>
-                                    <action selector="refreshTable" destination="BYZ-38-t0r" eventType="touchUpInside" id="seS-GD-MjW"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="7HZ-8K-wGm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="1Zk-Ld-P9Y"/>
-                            <constraint firstItem="FO0-HI-gb2" firstAttribute="top" secondItem="7HZ-8K-wGm" secondAttribute="bottom" constant="20" id="TSc-8d-JUu"/>
-                            <constraint firstItem="FO0-HI-gb2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dmR-75-BaL"/>
-                            <constraint firstItem="7HZ-8K-wGm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="ffn-tr-GKw"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="FO0-HI-gb2" secondAttribute="bottom" constant="5" id="v73-J6-BT7"/>
-                            <constraint firstItem="FO0-HI-gb2" firstAttribute="centerX" secondItem="7HZ-8K-wGm" secondAttribute="centerX" id="vKf-ph-RIC"/>
+                            <constraint firstItem="7HZ-8K-wGm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="TS9-lN-BvN"/>
+                            <constraint firstItem="7HZ-8K-wGm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dRd-mK-4Yg"/>
+                            <constraint firstItem="7HZ-8K-wGm" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="fjr-2X-tVD"/>
+                            <constraint firstItem="7HZ-8K-wGm" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="hpI-DG-2P7"/>
+                            <constraint firstItem="7HZ-8K-wGm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="t5t-na-qcG"/>
                         </constraints>
                     </view>
                     <connections>

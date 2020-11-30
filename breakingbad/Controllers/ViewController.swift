@@ -14,24 +14,15 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             
             self.characters = response
             
-            for i in 0...response.count-1 {
+            DispatchQueue.main.async {
                 
-                self.characterNameList.append(self.characters[i].name)
-                print(self.characterNameList[i])
+                for i in 0...response.count-1 {
+                    
+                    self.characterNameList.append(self.characters[i].name)
+                }
+                self.nameTable.reloadData()
             }
-            print("viewDidLoad() [Character].count == ", response.count)
-            
         })
-        
-        BreakingBadService.getCharacters(parameters: BreakingBadApiConstants.paramCharacters, characterId: "9", completion: { response in
-            
-            print("viewDidLoad() Character nickname \(response[0].nickname)")
-        })
-    }
-    
-    @IBAction func refreshTable() {
-        self.nameTable.reloadData()
-        
     }
     
     // Configure Table View containing names of all characters
