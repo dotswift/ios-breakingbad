@@ -20,6 +20,7 @@
 		C430C15B25744FC600391168 /* BreakingBadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C430C15A25744FC600391168 /* BreakingBadService.swift */; };
 		C430C16325744FDD00391168 /* ApiHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C430C16225744FDD00391168 /* ApiHelper.swift */; };
 		C430C16A2574501C00391168 /* BreakingBadResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C430C1692574501C00391168 /* BreakingBadResponse.swift */; };
+		C487A7FD2577649C00E58F07 /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C487A7FC2577649C00E58F07 /* CharacterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C430C10A25744F2600391168 /* ios-breakingbad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-breakingbad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C430C10A25744F2600391168 /* breakingbad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = breakingbad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C430C10D25744F2600391168 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C430C10F25744F2600391168 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C430C11125744F2600391168 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,10 +49,10 @@
 		C430C11625744F2B00391168 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C430C11925744F2B00391168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C430C11B25744F2B00391168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C430C12025744F2B00391168 /* ios-breakingbadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-breakingbadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C430C12025744F2B00391168 /* breakingbadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = breakingbadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C430C12425744F2B00391168 /* breakingbadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = breakingbadTests.swift; sourceTree = "<group>"; };
 		C430C12625744F2B00391168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C430C12B25744F2B00391168 /* ios-breakingbadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-breakingbadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C430C12B25744F2B00391168 /* breakingbadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = breakingbadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C430C12F25744F2B00391168 /* breakingbadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = breakingbadUITests.swift; sourceTree = "<group>"; };
 		C430C13125744F2B00391168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C430C15025744FAC00391168 /* BreakingBadApiConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingBadApiConstants.swift; sourceTree = "<group>"; };
@@ -59,6 +60,7 @@
 		C430C15A25744FC600391168 /* BreakingBadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingBadService.swift; sourceTree = "<group>"; };
 		C430C16225744FDD00391168 /* ApiHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiHelper.swift; sourceTree = "<group>"; };
 		C430C1692574501C00391168 /* BreakingBadResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingBadResponse.swift; sourceTree = "<group>"; };
+		C487A7FC2577649C00E58F07 /* CharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +101,9 @@
 		C430C10B25744F2600391168 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C430C10A25744F2600391168 /* ios-breakingbad.app */,
-				C430C12025744F2B00391168 /* ios-breakingbadTests.xctest */,
-				C430C12B25744F2B00391168 /* ios-breakingbadUITests.xctest */,
+				C430C10A25744F2600391168 /* breakingbad.app */,
+				C430C12025744F2B00391168 /* breakingbadTests.xctest */,
+				C430C12B25744F2B00391168 /* breakingbadUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,6 +154,7 @@
 		C430C14A25744F5900391168 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				C487A7FC2577649C00E58F07 /* CharacterViewController.swift */,
 				C430C11125744F2600391168 /* ViewController.swift */,
 			);
 			path = Controllers;
@@ -210,9 +213,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C430C10925744F2600391168 /* ios-breakingbad */ = {
+		C430C10925744F2600391168 /* breakingbad */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C430C13425744F2B00391168 /* Build configuration list for PBXNativeTarget "ios-breakingbad" */;
+			buildConfigurationList = C430C13425744F2B00391168 /* Build configuration list for PBXNativeTarget "breakingbad" */;
 			buildPhases = (
 				C430C10625744F2600391168 /* Sources */,
 				C430C10725744F2600391168 /* Frameworks */,
@@ -222,14 +225,14 @@
 			);
 			dependencies = (
 			);
-			name = "ios-breakingbad";
+			name = breakingbad;
 			productName = breakingbad;
-			productReference = C430C10A25744F2600391168 /* ios-breakingbad.app */;
+			productReference = C430C10A25744F2600391168 /* breakingbad.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C430C11F25744F2B00391168 /* ios-breakingbadTests */ = {
+		C430C11F25744F2B00391168 /* breakingbadTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C430C13725744F2B00391168 /* Build configuration list for PBXNativeTarget "ios-breakingbadTests" */;
+			buildConfigurationList = C430C13725744F2B00391168 /* Build configuration list for PBXNativeTarget "breakingbadTests" */;
 			buildPhases = (
 				C430C11C25744F2B00391168 /* Sources */,
 				C430C11D25744F2B00391168 /* Frameworks */,
@@ -240,14 +243,14 @@
 			dependencies = (
 				C430C12225744F2B00391168 /* PBXTargetDependency */,
 			);
-			name = "ios-breakingbadTests";
+			name = breakingbadTests;
 			productName = breakingbadTests;
-			productReference = C430C12025744F2B00391168 /* ios-breakingbadTests.xctest */;
+			productReference = C430C12025744F2B00391168 /* breakingbadTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C430C12A25744F2B00391168 /* ios-breakingbadUITests */ = {
+		C430C12A25744F2B00391168 /* breakingbadUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C430C13A25744F2B00391168 /* Build configuration list for PBXNativeTarget "ios-breakingbadUITests" */;
+			buildConfigurationList = C430C13A25744F2B00391168 /* Build configuration list for PBXNativeTarget "breakingbadUITests" */;
 			buildPhases = (
 				C430C12725744F2B00391168 /* Sources */,
 				C430C12825744F2B00391168 /* Frameworks */,
@@ -258,9 +261,9 @@
 			dependencies = (
 				C430C12D25744F2B00391168 /* PBXTargetDependency */,
 			);
-			name = "ios-breakingbadUITests";
+			name = breakingbadUITests;
 			productName = breakingbadUITests;
-			productReference = C430C12B25744F2B00391168 /* ios-breakingbadUITests.xctest */;
+			productReference = C430C12B25744F2B00391168 /* breakingbadUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -285,7 +288,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C430C10525744F2600391168 /* Build configuration list for PBXProject "ios-breakingbad" */;
+			buildConfigurationList = C430C10525744F2600391168 /* Build configuration list for PBXProject "breakingbad" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -298,9 +301,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C430C10925744F2600391168 /* ios-breakingbad */,
-				C430C11F25744F2B00391168 /* ios-breakingbadTests */,
-				C430C12A25744F2B00391168 /* ios-breakingbadUITests */,
+				C430C10925744F2600391168 /* breakingbad */,
+				C430C11F25744F2B00391168 /* breakingbadTests */,
+				C430C12A25744F2B00391168 /* breakingbadUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -337,6 +340,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C487A7FD2577649C00E58F07 /* CharacterViewController.swift in Sources */,
 				C430C15B25744FC600391168 /* BreakingBadService.swift in Sources */,
 				C430C11225744F2600391168 /* ViewController.swift in Sources */,
 				C430C15125744FAC00391168 /* BreakingBadApiConstants.swift in Sources */,
@@ -369,12 +373,12 @@
 /* Begin PBXTargetDependency section */
 		C430C12225744F2B00391168 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C430C10925744F2600391168 /* ios-breakingbad */;
+			target = C430C10925744F2600391168 /* breakingbad */;
 			targetProxy = C430C12125744F2B00391168 /* PBXContainerItemProxy */;
 		};
 		C430C12D25744F2B00391168 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C430C10925744F2600391168 /* ios-breakingbad */;
+			target = C430C10925744F2600391168 /* breakingbad */;
 			targetProxy = C430C12C25744F2B00391168 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -573,7 +577,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-breakingbad.app/ios-breakingbad";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/breakingbad.app/breakingbad";
 			};
 			name = Debug;
 		};
@@ -595,7 +599,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-breakingbad.app/ios-breakingbad";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/breakingbad.app/breakingbad";
 			};
 			name = Release;
 		};
@@ -642,7 +646,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C430C10525744F2600391168 /* Build configuration list for PBXProject "ios-breakingbad" */ = {
+		C430C10525744F2600391168 /* Build configuration list for PBXProject "breakingbad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C430C13225744F2B00391168 /* Debug */,
@@ -651,7 +655,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C430C13425744F2B00391168 /* Build configuration list for PBXNativeTarget "ios-breakingbad" */ = {
+		C430C13425744F2B00391168 /* Build configuration list for PBXNativeTarget "breakingbad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C430C13525744F2B00391168 /* Debug */,
@@ -660,7 +664,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C430C13725744F2B00391168 /* Build configuration list for PBXNativeTarget "ios-breakingbadTests" */ = {
+		C430C13725744F2B00391168 /* Build configuration list for PBXNativeTarget "breakingbadTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C430C13825744F2B00391168 /* Debug */,
@@ -669,7 +673,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C430C13A25744F2B00391168 /* Build configuration list for PBXNativeTarget "ios-breakingbadUITests" */ = {
+		C430C13A25744F2B00391168 /* Build configuration list for PBXNativeTarget "breakingbadUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C430C13B25744F2B00391168 /* Debug */,

@@ -17,9 +17,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             DispatchQueue.main.async {
                 
                 for i in 0...response.count-1 {
-                    
                     self.characterNameList.append(self.characters[i].name)
                 }
+                
                 self.nameTable.reloadData()
             }
         })
@@ -41,5 +41,16 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let cell = nameTable.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         cell.textLabel?.text = characterNameList[indexPath.row]
         return cell
+    }
+    
+    // Determine which row is selected (tapped)
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "showDetails", sender: self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let destination = segue.destination as? CharacterViewController {
+            destination.selectedCharacter = characters[nameTable.indexPathForSelectedRow!.row]
+        }
     }
 }
